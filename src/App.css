@@ -1,0 +1,62 @@
+.todo-wrapper {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+form {
+    margin-bottom: 30px;
+}
+.todo {
+    align-items: center;
+    text-align: center;
+}
+.todo-add-btn {
+    margin-left: 10px;
+}
+.head,
+h2 {
+    font-size: 36px;
+    margin: 20px 30px;
+    color: darkslategray;
+}
+.todo-add-input,
+.todo-add-btn {
+    padding: 10px 15px;
+}
+.deleted-item,
+.todo-item{
+    padding: 10px 15px;
+    list-style: none;
+}
+.recycle-container {
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 3px solid darkslategray;
+}
+ul {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.buttons-side {
+    display: inline-block;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.todo-item {
+    border: 1px solid darkslategray;
+    margin-bottom: 10px;
+}
+.recycle-container li {
+    border: 1px solid lightcoral;
+    color: lightcoral;
+}
+.recycle-container button {
+    margin-left: 10px;
+}
